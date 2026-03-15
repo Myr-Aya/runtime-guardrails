@@ -1,0 +1,16 @@
+{
+  "skills": {
+    "entries": {
+      "runtime-guardrails": {
+        "enabled": true,
+        "env": {
+          "GUARDRAILS_MODE": "auto",
+          "GUARDRAILS_AUTONOMOUS_MODE": "audit-only",
+          "GUARDRAILS_TIER4_AUTONOMOUS": "halt",
+          "GUARDRAILS_PRE_APPROVED": "",
+          "GUARDRAILS_ALERT_CHANNEL": "auto"
+        }
+      }
+    }
+  }
+}
